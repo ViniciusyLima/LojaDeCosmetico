@@ -54,12 +54,12 @@ section:nth-child(even){
     background: var(--space-cadet-blue);
     border-radius: .5rem;
     cursor: pointer;
-    padding:.8rem 3rem;
+    padding:.7rem 1rem;
 }
 
 .btn:hover{
     background: var(--golden-brown);
-    letter-spacing: .1rem;
+    letter-spacing: 0.05rem;
 }
 
 header{
@@ -126,7 +126,7 @@ header .icons #menu-bars{
 
 .products .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap:1.5rem;
 }
 
@@ -142,7 +142,8 @@ header .icons #menu-bars{
     height: 100%;
     width: 100%;
     border-radius: .5rem;
-    object-fit: cover;
+    background-size: cover;
+    background-position: center;
 }
 
 .products .box-container .box .image .fa-heart{
@@ -179,7 +180,7 @@ header .icons #menu-bars{
 
 .products .box-container .box .content h3{
     color:var(--space-cadet-blue);
-    font-size: 2.5rem;
+    font-size: 2.2rem;
 }
 
 .products .box-container .box .content p{
