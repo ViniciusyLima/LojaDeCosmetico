@@ -470,8 +470,9 @@ body {
     }
 
     .dishes .box-container .box img{
-        height:auto;
+        height: 100%;
         width: 100%;
+
     }
 
     .order form .inputBox .input{
