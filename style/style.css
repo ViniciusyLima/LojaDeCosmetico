@@ -474,6 +474,11 @@ body {
         background:#e43333;
     }
 
+    section{
+        background-color: #e43333;
+        padding:2rem 9%;
+    }
+    
     .dishes .box-container .box img{
         height: 100%;
         width: 100%;
