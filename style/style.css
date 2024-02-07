@@ -25,11 +25,12 @@ html{
 }
 
 section{
+    background-color: #fff;
     padding:2rem 9%;
 }
 
 section:nth-child(even){
-    background:#eee;
+    background:#ffffff;
 }
 
 .sub-heading{
@@ -251,7 +252,7 @@ header .icons #menu-bars{
 
 body {
   font-family: sans-serif;
-  background-color: #eeeeee;
+  background-color: #ffffff;
 }
 
 .file-upload {
