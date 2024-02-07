@@ -469,6 +469,10 @@ body {
     html{
         font-size: 50%;
     }
+    
+    section:nth-child(even){
+        background:#e43333;
+    }
 
     .dishes .box-container .box img{
         height: 100%;
