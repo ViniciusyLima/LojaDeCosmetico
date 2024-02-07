@@ -445,15 +445,6 @@ body {
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
 
-    section:nth-child(even){
-        background:#e43333;
-    }
-
-    section{
-        background-color: #e43333;
-        padding:2rem 9%;
-    }
-
     header .navbar a{
         display: block;
         padding:1.5rem;
@@ -469,6 +460,10 @@ body {
 
     .home .home-slider .slide .content h3{
         font-size: 5rem;
+    }
+
+    .products .box-container .box .image img{
+        width: auto;
     }
 
 }
