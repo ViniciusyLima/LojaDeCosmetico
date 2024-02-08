@@ -405,10 +405,11 @@ body {
 }
 
 iframe#tela {
-    width: 99vw;
+    width: 100vw;
     height: 1200px;
     margin-top: 10px;
     margin-left: 0px;
+    border: 0px solid white;
 }
 
 body div .navbar a{
