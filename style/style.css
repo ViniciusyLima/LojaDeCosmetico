@@ -141,10 +141,9 @@ header .icons #menu-bars{
 
 .products .box-container .box .image img{
     height: 100%;
-    width: 100%;
+    width: auto;
     border-radius: .5rem;
-    background-size: cover;
-    background-position: center;
+    object-fit: cover;
 }
 
 .products .box-container .box .image .fa-heart{
@@ -410,7 +409,6 @@ iframe#tela {
     height: 1200px;
     margin-top: 10px;
     margin-left: 0px;
-    border: 1px solid black;
 }
 
 body div .navbar a{
