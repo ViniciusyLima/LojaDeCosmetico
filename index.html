@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cosmético</title>
+    <title>Natulove</title>
 
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
@@ -28,12 +28,10 @@
     <!--  Início do header  -->
     <header>
 
-        <a href="#" class="logo"><img src="image/icons/MagicSimpleLogo.png" style="width: 15px;">&nbsp; Cosmético</a>
+        <a href="#" class="logo"><img src="image/icons/Logo2.png" style="width: 28px;">&nbsp; Natulove</a>
 
         <nav class="navbar">
-            <a class="active" href="#">Home</a>
-            <a href="#produtos">Produtos</a>
-            <a href="#register">Registro</a>
+            <a href="#">Home</a>
             <a href="https://wa.me/5511949878919?text=Ol%C3%A1%2C+gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+seus+produtos%21" target="_blank">WhatsApp</a>
         </nav>
 
@@ -50,64 +48,14 @@
         <br><br><br><br><br><br><br><br><br>
         <div class="categoria">
             <nav class="navbar">
-                <a href="maquiagem.html" target="iframe">Maquiagem</a>
+                <a class="active" href="maquiagem.html" target="iframe">Maquiagem</a>
                 <a href="skincare.html" target="iframe">SkinCare</a>
             </nav>
       </div>
 
-        <iframe src="maquiagem.html" frameborder="0" id="tela" name="iframe">
+        <iframe src="maquiagem.html" frameborder="0" id="tela" name="iframe" >
             <p>Infelizmente seu navegador não é compativel com isso.</p>
         </iframe>
-
-            <!-- Início da seção registro  -->
-            <section class="register" id="register">
-
-                <h1 class="heading"> Registre um item </h1>
-
-                <form action="">
-
-                    <div class="inputBox">
-                        <div class="input">
-                            <span>Título</span>
-                            <input type="text" placeholder="Título do produto">
-                        </div>
-
-                        <div class="input">
-                            <span>Preço</span>
-                            <input type="number" placeholder="Preço do produto">
-                        </div>
-                    </div>
-
-                    <div class="inputBox">
-                        <div class="input">
-                            <span>Descrição</span>
-                            <textarea name="" placeholder="Descreva brevemente o produto" id="" cols="30" rows="10"></textarea>
-                        </div>
-
-                        <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-                        <div class="file-upload">
-                          <button class="file-upload-btn" type="button" onclick="$('.file-upload-input').trigger( 'click' )">Adicione uma imagem</button>
-
-                          <div class="image-upload-wrap">
-                            <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
-                            <div class="drag-text">
-                              <h3>Arraste para cá ou selecione uma imagem</h3>
-                          </div>
-                      </div>
-                      <div class="file-upload-content">
-                        <img class="file-upload-image" src="#" alt="your image" />
-                        <div class="image-title-wrap">
-
-                          <button type="button" onclick="removeUpload()" class="remove-image">Remover <span class="image-title">Imagem selecionada</span></button>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <input type="submit" value="Registrar" class="btn">
-      </form>
-  </section>
-  <!-- Fim da seção registro -->
-
 
   <!-- Início do footer -->
   <section class="footer">
