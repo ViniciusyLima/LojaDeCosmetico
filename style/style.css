@@ -118,7 +118,7 @@ header .icons a{
 header .icons i:hover,
 header .icons a:hover{
     color:#fff;
-    background: var(--golden-brown);
+    background-color: #ff83cf;
     transform: rotate(360deg);
 }
 
