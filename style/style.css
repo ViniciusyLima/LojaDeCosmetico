@@ -204,10 +204,16 @@ div .navbar a:hover{
     line-height: 1.5;
 }
 
+.products .box-container .box .content .desconto{
+    color: rgba(0, 0, 0, 0.600);
+    text-decoration: line-through;
+    font-size: 1.8rem;
+}
+
 .products .box-container .box .content .price{
-    color:var(--golden-brown);
-    margin-left: 1rem;
-    font-size: 2.5rem;
+    color: black;
+    margin-left: 0.5rem;
+    font-size: 2.6rem;
 }
 
 .register form{
@@ -423,7 +429,7 @@ iframe#tela {
     height: 200vh;
     margin-top: 10px;
     margin-left: 0px;
-    border: 1px solid rgb(0, 0, 0);
+    border: 0px solid rgb(0, 0, 0);
 }
 
 body .categoria {
