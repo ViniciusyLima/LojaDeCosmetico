@@ -122,7 +122,10 @@ header .icons a:hover{
     transform: rotate(360deg);
 }
 
-header .icons #menu-bars{
+header .icons #truck,
+header .icons #store,
+header .icons #instagram,
+header .icons #whatsapp{
     display: none;
 }
 
@@ -460,7 +463,10 @@ body .categoria {
 
 @media (max-width:768px){
 
-    header .icons #menu-bars{
+    header .icons #truck,
+    header .icons #store,
+    header .icons #instagram,
+    header .icons #whatsapp{
         display: inline-block;
     }
 
