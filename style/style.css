@@ -147,6 +147,26 @@ div .navbar a:hover{
     background-color: #ff83cf;
 }
 
+body .categoria {
+    background: #fff;
+    padding: 1rem 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body .categoria a {
+    font-size: 1.5rem;
+    border-radius: .5rem;
+    padding: 0.5rem 1.5rem;
+    color:var(--light-color);
+}
+
+body .categoria a:hover {
+    color:#fff;
+    background-color: #ff83cf;
+}
+
 .products .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
@@ -440,13 +460,6 @@ iframe#tela {
     border: 0px solid rgb(0, 0, 0);
 }
 
-body .categoria {
-    background: #fff;
-    padding:1rem 10%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
 /* media queries  */
 @media (max-width:991px){
