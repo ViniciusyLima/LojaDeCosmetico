@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Arapey&display=swap');
 
 :root{
-    --golden-brown:#A27035;;
     --space-cadet-blue:#192a56;
     --light-color:#666;
     --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
@@ -84,8 +83,8 @@ header .logo{
 
 }
 
-header .logo i{
-    color:var(--golden-brown);
+header .logo img{
+    width: 28px;
 }
 
 header .navbar a{
@@ -134,20 +133,24 @@ header .icons #whatsapp{
     font-size: 16px;
 }
 
-div .navbar a{
+header .navbar a{
     font-size: 1.7rem;
     border-radius: .5rem;
     padding:.5rem 1.5rem;
     color:var(--light-color);
 }
 
-div .navbar a.active,
-div .navbar a:hover{
+header .navbar a.active,
+header .navbar a:hover{
     color:#fff;
     background-color: #ff83cf;
 }
 
-body .categoria {
+main {
+    margin-top: 8rem;
+}
+
+main .categoria {
     background: #fff;
     padding: 1rem 10%;
     display: flex;
@@ -155,14 +158,14 @@ body .categoria {
     justify-content: space-between;
 }
 
-body .categoria a {
+main .categoria a {
     font-size: 1.5rem;
     border-radius: .5rem;
     padding: 0.5rem 1.5rem;
     color:var(--light-color);
 }
 
-body .categoria a:hover {
+main .categoria a:hover {
     color:#fff;
     background-color: #ff83cf;
 }

@@ -1,87 +1,68 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Natulove</title>
 
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="image/icons/favicon.ico" type="image/x-icon">
 
     <!-- Font Awesome CDN Link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style/style.css">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
 
 </head>
-<body>
+    <body>
 
-    <!--  Início do header  -->
-    <header>
+        <!--  Início do Header  -->
+        <header>
+            <a href="#" class="logo"><img src="image/logo/logo.png">&nbsp; Natulove</a>
 
-        <a href="#" class="logo"><img src="image/icons/Logo2.png" style="width: 28px;">&nbsp; Natulove</a>
-
-        <nav class="navbar">
-            <a href="#">Opções de entrega</a>
-            <a href="#">Sobre nós</a>
-            <a href="#">Instagram</a>
-            <a href="https://wa.me/5511949878919?text=Ol%C3%A1%2C+gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+seus+produtos%21" target="_blank">WhatsApp</a>
-        </nav>
-
-        <div class="icons">
-            <i class="fa-solid fa-truck-front" id="truck"></i>
-            <i class="fa-solid fa-store" id="store"></i>
-            <i class="fa-brands fa-instagram" id="instagram"></i>
-            <i class="fa-brands fa-whatsapp" id="whatsapp"></i>
-        </div>
-
-    </header>
-    <!-- Fim do header -->
-
-        <br><br><br><br><br><br><br><br><br>
-        <div class="categoria">
-            <nav class="navbar2">
-                <a href="maquiagem.html" target="iframe">Maquiagem Facial</a>
-                <a href="skincare.html" target="iframe">Maquiagem de Boca</a>
-                <a href="skincare.html" target="iframe">Maquiagem de Olhos</a>
-                <a href="skincare.html" target="iframe">Maquiagem de Sobrancelhas</a>
-                <a href="skincare.html" target="iframe">Cuidados para Pele</a>
-                <a href="skincare.html" target="iframe">Acessórios</a>
+            <nav class="navbar">
+                <a href="#">Ofertas</a>
+                <a href="#">Informações</a>
+                <a href="https://www.instagram.com/natulovecosmeticos" target="_blank" >Instagram</a>
+                <a href="https://wa.me/5511949878919" target="_blank">WhatsApp</a>
             </nav>
-      </div>
 
-        <iframe src="maquiagem.html" frameborder="0" id="tela" name="iframe" >
-            <p>Infelizmente seu navegador não é compativel com isso.</p>
-        </iframe>
+            <div class="icons">
+                <a href="#"><i class="fa-solid fa-truck-front" id="truck"></i></a>
+                <a href="#"><i class="fa-solid fa-store" id="store"></i></a>
+                <a href="https://www.instagram.com/natulovecosmeticos" target="_blank"><i class="fa-brands fa-instagram" id="instagram"></i></a>
+                <a href="https://wa.me/5511949878919" target="_blank"><i class="fa-brands fa-whatsapp" id="whatsapp"></i></a>
+            </div>
+        </header>
+        <!-- Fim do Header -->
 
-  <!-- Início do footer -->
-  <section class="footer">
+        <!--  Início do Main  -->
+        <main>
+            <div class="categoria">
+                <nav class="navbar2">
+                    <a href="Categoria/Maquiagem/maquiagem.html" target="iframe">Maquiagem Facial</a>
+                    <a href="Categoria/Skincare/skincare.html" target="iframe">Maquiagem de Boca</a>
+                    <a href="Categoria/Skincare/skincare.html" target="iframe">Maquiagem de Olhos</a>
+                    <a href="Categoria/Skincare/skincare.html" target="iframe">Maquiagem de Sobrancelhas</a>
+                    <a href="Categoria/Skincare/skincare.html" target="iframe">Cuidados para Pele</a>
+                    <a href="Categoria/Skincare/skincare.html" target="iframe">Acessórios</a>
+                </nav>
+            </div>
 
-    <div class="credit"> Desenvolvimento de Software em Nuvem | Projeto Final </div>
-</section>
-<!-- Fim do footer -->
+            <iframe src="Categoria/Maquiagem/maquiagem.html" frameborder="0" id="tela" name="iframe" >
+                <p>Infelizmente seu navegador não é compativel com isso.</p>
+            </iframe>
+        </main>
+        <!--  Fim do Main  -->
 
+        <!-- Início do Footer -->
+        <section class="footer">
+            <div class="credit"> Desenvolvido por Vinícius Lima | Todos os direitos reservados </div>
+        </section>
+        <!-- Fim do Footer -->
 
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-
-<!-- Custom JS  -->
-<script src="js/script.js"></script>
-
-
-<!-- Função dark mode 
-<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
-<script>
-  function addDarkmodeWidget() {
-    new Darkmode().showWidget();
-}
-window.addEventListener('load', addDarkmodeWidget);
-</script>
--->
-
-</body>
+    </body>
 </html>
