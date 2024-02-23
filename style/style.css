@@ -170,6 +170,10 @@ main .categoria a:hover {
     background-color: #ff83cf;
 }
 
+.products .box {
+    background-color: red;
+}
+
 .products .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
