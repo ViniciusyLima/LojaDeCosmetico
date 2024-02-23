@@ -172,14 +172,14 @@ main .categoria a:hover {
 
 .products .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
+    gap: 1rem;
 }
 
 .products .box-container .box .image{
-    height: 25rem;
+    height: 23rem;
     width: 100%;
-    padding:1.5rem;
+    padding: 0.5rem;
     overflow: hidden;
     position: relative;
 }
@@ -191,48 +191,21 @@ main .categoria a:hover {
     object-fit: cover;
 }
 
-.products .box-container .box .image .fa-heart{
-    position: absolute;
-    top:2.5rem; right: 2.5rem;
-    height: 5rem;
-    width: 5rem;
-    line-height: 5rem;
-    text-align: center;
-    font-size: 2rem;
-    background: #fff;
-    border-radius: 50%;
-    color:var(--space-cadet-blue);
-}
-
-.products .box-container .box .image .fa-heart:hover{
-    background-color: var(--golden-brown);
-    color:#fff;
-}
-
 .products .box-container .box .content{
-    padding:2rem;
+    padding: 0.5rem;
     padding-top: 0;
-}
-
-.products .box-container .box .content .stars{
-    padding-bottom: 1rem;
-}
-
-.products .box-container .box .content .stars i{
-   font-size: 1.7rem;
-   color:var(--golden-brown);
 }
 
 .products .box-container .box .content h3{
     color:var(--space-cadet-blue);
-    font-size: 2.2rem;
+    font-size: 2rem;
 }
 
 .products .box-container .box .content p{
     color:var(--light-color);
-    font-size: 1.6rem;
-    padding:.5rem 0;
-    line-height: 1.5;
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
+    line-height: 1.1;
 }
 
 .products .box-container .box .content .desconto{
