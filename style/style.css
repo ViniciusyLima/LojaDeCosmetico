@@ -497,8 +497,8 @@ iframe#tela {
 
     .products .box-container{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(10rem, 0.5fr));
-        gap: 0.5rem;
+        grid-template-columns: repeat(auto-fit, minmax(18rem, 0.5fr));
+        gap: 0.6rem;
     }
 
 }
