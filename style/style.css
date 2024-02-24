@@ -239,7 +239,7 @@ main .products .box-container .box .content .price{
 .footer .credit{
     text-align: center;
     border-top: .1rem solid rgba(0,0,0,.1);
-    font-size: 2rem;
+    font-size: 1.3rem;
     color:var(--space-cadet-blue);
     padding:.5rem;
     padding-top: 1.5rem;
