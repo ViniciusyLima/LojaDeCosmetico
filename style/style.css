@@ -192,6 +192,11 @@ main .products .box-container{
     gap: 1rem;
 }
 
+main .products .box-container .box {
+    border: solid 1px #eee;
+    border-radius: .5rem;
+}
+
 main .products .box-container .box .image{
     height: 23rem;
     width: 100%;
@@ -207,7 +212,56 @@ main .products .box-container .box .image img{
     object-fit: cover;
 }
 
-main products .box-container .box .content{
+main .products .box-container .box .image .new{
+    position: absolute;
+    top: 1rem; right: 16rem;
+    height: 4rem;
+    width: 4rem;
+    text-align: center;
+    font-size: 2rem;
+    background: #fff;
+}
+
+main .products .box-container .box .image .fa-angle-left {
+    top: 50%;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    position: absolute;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 46px;
+    background: #fff;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+main .products .box-container .box .image .fa-angle-right{
+    top: 50%;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    position: absolute;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 46px;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+main .products .box-container .box .image i:first-child{
+    left: -18px;
+}
+    
+main .products .box-container .box .image i:last-child{
+    right: -14px;
+}
+
+#p2 {
+    display: none;
+}
+
+main .products .box-container .box .content{
     padding: 0.5rem;
     padding-top: 0;
 }
@@ -245,6 +299,7 @@ main .products .box-container .box .content .price{
     padding-top: 1.5rem;
     margin-top: 1.5rem;
 }
+
 
 /* media queries  */
 @media (max-width:991px){
