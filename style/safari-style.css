@@ -196,6 +196,8 @@ main .products .box-container{
 main .products .box-container .box {
     border: solid 1px #eee;
     border-radius: .5rem;
+    width: 40%;
+    height: 100%;
 }
 
 main .products .box-container .box .image{
@@ -211,7 +213,6 @@ main .products .box-container .box .image div {
     height: 100%;
     width: auto;
     border-radius: .5rem;
-    object-fit: cover;
 }
 
 main .products .box-container .box .image .novo{
