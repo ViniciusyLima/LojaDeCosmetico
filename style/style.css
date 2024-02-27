@@ -2,8 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Arapey&display=swap');
 
 @font-face {
-    font-family: Oferta;
+    font-family: oferta;
     src: url(../font/Curetro.otf);
+
+}
+@font-face {
+    font-family: titulo;
+    src: url(../font/MOORA\ LIGHT\ REGULER.otf);
 }
 
 :root{
@@ -36,22 +41,23 @@ body {
 
 section{
     background-color: #fff;
-    padding: 2rem 9%;
+    padding: 0.3rem 9%;
 }
 
-.heading{
+.oferta{
     text-align: center;
     color: gold;
     font-size: 5rem;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
-    font-family: Oferta;
-    padding-bottom: 2rem;
+    font-family: oferta;
+    padding-bottom: 3rem;
 }
 
-.h1_categoria {
+.nomeCat {
+    font-family: titulo;
     text-align: center;
-    color: var(--space-cadet-blue);
-    font-size: 4rem;
+    color: #e643a7;
+    font-size: 4.5rem;
     padding-bottom: 2rem;
 }
 
@@ -75,7 +81,7 @@ header {
     position: fixed;
     top:0; left: 0; right:0;
     background: #fff;
-    padding:1rem 7%;
+    padding: 1rem 7%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -166,10 +172,10 @@ header .navbar a:hover{
 }
 
 main {
-    margin-top: 5rem;
+    margin-top: 7rem;
 }
 main .sidebar .categoria {
-    margin-top: 0px;
+    margin-top: 0rem;
     padding: 1rem;
     display: flex;
     align-items: center;
@@ -181,6 +187,14 @@ main .sidebar .categoria a{
     border-radius: .5rem;
     padding:.4rem 1.5rem;
     color:var(--light-color);
+}
+
+.fa-home {
+    font-size: 2rem;
+}
+
+.fa-arrow-left {
+    font-size: 2rem;
 }
 
 main .sidebar .categoria a.active,
@@ -201,15 +215,14 @@ main .products .box-container .box {
 }
 
 main .products .box-container .box .image{
-    display: grid;
-    grid-template-columns: repeat(4, 100%);
+    
+    grid-template-columns: (4, 100%);
     height: 23rem;
     width: 100%;
     padding: 0.5rem;
     overflow: hidden;
     position: relative;
     padding: 0.5rem;
-    grid-template-columns: (4, 100%);
 }
 
 main .products .box-container .box .image div {
@@ -221,13 +234,11 @@ main .products .box-container .box .image div {
 
 main .products .box-container .box .image .new{
     position: absolute;
-    top: 2%; right: 80%;
-    height: 4rem;
-    width: 4rem;
+    top: -4%; right: 76%;
+    height: 5rem;
+    width: 5rem;
     line-height: 5rem;
     text-align: center;
-    font-size: 2rem;
-    background: #fff;
 }
 
 main .products .box-container .box .content{
@@ -351,8 +362,8 @@ main .products .box-container .box .content .price{
     width: 20px;
     }
 
-    .heading{
-        font-size: 2.5rem;
+    .oferta{
+        font-size: 5rem;
     }
     
 }
@@ -388,6 +399,123 @@ main .products .box-container .box .content .price{
 #img1:hover {
     background-image: url(../image/produtos/Maquiagem/DermachemSaboneteLiquidoPosMaquiagemMakeUp2.png);
     background-position: center;
-    background-size: 105%;
+    background-size: 110%;
+    transition: 0.7s;
+}
+
+#img2 {
+    background-image: url(../image/produtos/Maquiagem/DermachemSaboneteLiquidoPreMaquiagemMakeUp1.png);
+    background-position: center;
+    background-size: 110%;
+}
+
+#img2:hover {
+    background-image: url(../image/produtos/Maquiagem/DermachemSaboneteLiquidoPreMaquiagemMakeUp2.png);
+    background-position: center;
+    background-size: 110%;
+    transition: 0.7s;
+}
+
+#img3 {
+    background-image: url(../image/produtos/Maquiagem/AdversaMáscaraDeCíliosVegana2.png);
+    background-position: center;
+    background-size: 110%;
+}
+
+#img3:hover {
+    background-image: url(../image/produtos/Maquiagem/AdversaMáscaraDeCíliosVegana1.png);
+    background-position: center;
+    background-size: 110%;
+    transition: 0.7s;
+}
+
+#img4 {
+    background-image: url(../image/produtos/Maquiagem/FenzzaFixadordeMaquiagem1.png);
+    background-position: center;
+    background-size: 110%;
+}
+
+#img4:hover {
+    background-image: url(../image/produtos/Maquiagem/FenzzaFixadordeMaquiagem2.png);
+    background-position: center;
+    background-size: 110%;
+    transition: 0.7s;
+}
+
+#img5 {
+    background-image: url(../image/produtos/Maquiagem/LyricsDelineadorLiquido2.png);
+    background-position: center;
+    background-size: 110%;
+}
+
+#img5:hover {
+    background-image: url(../image/produtos/Maquiagem/LyricsDelineadorLiquido1.png);
+    background-position: center;
+    background-size: 110%;
+    transition: 0.7s;
+}
+
+#img6 {
+    background-image: url(../image/produtos/Maquiagem/LyricsPaletaDeSombras1.png);
+    background-position: center;
+    background-size: 110%;
+}
+
+#img6:hover {
+    background-image: url(../image/produtos/Maquiagem/LyricsPaletaDeSombras2.png);
+    background-position: center;
+    background-size: 110%;
+    transition: 0.7s;
+}
+
+#img7 {
+    background-image: url(../image/produtos/Maquiagem/PhallebeautyTrioDeContorno1.png);
+    background-position: center;
+    background-size: 110%;
+}
+
+#img7:hover {
+    background-image: url(../image/produtos/Maquiagem/PhallebeautyTrioDeContorno2.png);
+    background-position: center;
+    background-size: 110%;
+    transition: 0.7s;
+}
+
+#img8 {
+    background-image: url(../image/produtos/Maquiagem/FenzzaLipOilMultifucionalParqueEncantado1.png);
+    background-position: center;
+    background-size: 110%;
+}
+
+#img8:hover {
+    background-image: url(../image/produtos/Maquiagem/FenzzaLipOilMultifucionalParqueEncantado2.png);
+    background-position: center;
+    background-size: 110%;
+    transition: 0.7s;
+}
+
+#img9 {
+    background-image: url(../image/produtos/);
+    background-position: center;
+    background-size: 110%;
+}
+
+#img9:hover {
+    background-image: url(../image/produtos/);
+    background-position: center;
+    background-size: 110%;
+    transition: 0.7s;
+}
+
+#img10 {
+    background-image: url(../image/produtos/);
+    background-position: center;
+    background-size: 110%;
+}
+
+#img10:hover {
+    background-image: url(../image/produtos/);
+    background-position: center;
+    background-size: 110%;
     transition: 0.7s;
 }
