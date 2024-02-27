@@ -15,4 +15,8 @@ function loadSafariStylesheet() {
 // Carrega o arquivo CSS específico para o Safari e desativa o arquivo style.css se necessário
 if (isSafari()) {
     loadSafariStylesheet();
+    alert("Este cliente está usando o Safari.");
+} else {
+    alert("Este cliente não está usando o Safari.");
 }
+
