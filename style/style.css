@@ -226,7 +226,7 @@ main .products .box-container .box .image{
     padding: 0.5rem;
 }
 
-main .products .box-container .box .image div {
+main .products .box-container .box .image .img {
     height: 100%;
     width: auto;
     border-radius: .5rem;
