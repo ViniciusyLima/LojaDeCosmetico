@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arapey&display=swap');
 
+@font-face {
+    font-family: Oferta;
+    src: url(../font/Curetro.otf);
+}
+
 :root{
     --space-cadet-blue:#192a56;
     --light-color:#666;
@@ -31,24 +36,22 @@ body {
 
 section{
     background-color: #fff;
-    padding:2rem 9%;
-}
-
-section:nth-child(even){
-    background:#ffffff;
-}
-
-.sub-heading{
-    text-align: center;
-    color:var(--golden-brown);
-    font-size: 2rem;
-    padding-top: 1rem;
+    padding: 2rem 9%;
 }
 
 .heading{
     text-align: center;
-    color:var(--space-cadet-blue);
-    font-size: 3rem;
+    color: gold;
+    font-size: 5rem;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+    font-family: Oferta;
+    padding-bottom: 2rem;
+}
+
+.h1_categoria {
+    text-align: center;
+    color: var(--space-cadet-blue);
+    font-size: 4rem;
     padding-bottom: 2rem;
 }
 
@@ -68,7 +71,7 @@ section:nth-child(even){
     letter-spacing: 0.05rem;
 }
 
-header{
+header {
     position: fixed;
     top:0; left: 0; right:0;
     background: #fff;
@@ -163,7 +166,7 @@ header .navbar a:hover{
 }
 
 main {
-    margin-top: 7rem;
+    margin-top: 5rem;
 }
 main .sidebar .categoria {
     margin-top: 0px;
@@ -193,6 +196,7 @@ main .products .box-container{
 }
 
 main .products .box-container .box {
+    position: relative;
     border: solid 1px #eee;
     border-radius: .5rem;
 }
@@ -214,7 +218,7 @@ main .products .box-container .box .image img{
 
 main .products .box-container .box .image .new{
     position: absolute;
-    top: 1%; right: 80%;
+    top: 2%; right: 80%;
     height: 4rem;
     width: 4rem;
     line-height: 5rem;
@@ -223,46 +227,8 @@ main .products .box-container .box .image .new{
     background: #fff;
 }
 
-main .products .box-container .box .image .fa-angle-left {
-    top: 50%;
-    height: 46px;
-    width: 46px;
-    cursor: pointer;
-    position: absolute;
-    font-size: 1.5rem;
-    text-align: center;
-    line-height: 46px;
-    background: #fff;
-    border-radius: 50%;
-    transform: translateY(-50%);
-}
-
-main .products .box-container .box .image .fa-angle-right{
-    top: 50%;
-    height: 40px;
-    width: 40px;
-    cursor: pointer;
-    position: absolute;
-    font-size: 1.5rem;
-    text-align: center;
-    line-height: 46px;
-    border-radius: 50%;
-    transform: translateY(-50%);
-}
-
-main .products .box-container .box .image i:first-child{
-    left: -18px;
-}
-    
-main .products .box-container .box .image i:last-child{
-    right: -14px;
-}
-
-#p2 {
-    display: none;
-}
-
 main .products .box-container .box .content{
+    position: relative;
     padding: 0.5rem;
     padding-top: 0;
 }
@@ -365,9 +331,9 @@ main .products .box-container .box .content .price{
     header .icons a {
     margin-left: 0;
     margin-right: 0;
-    height:3.5rem;
+    height: 3.5rem;
     line-height: 3.5rem;
-    width:3.5rem;
+    width: 3.5rem;
     }
 
     header .logo{
