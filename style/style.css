@@ -196,20 +196,24 @@ main .products .box-container{
 }
 
 main .products .box-container .box {
-    position: relative;
     border: solid 1px #eee;
     border-radius: .5rem;
 }
 
 main .products .box-container .box .image{
+    display: grid;
+    grid-template-columns: repeat(4, 110%);
     height: 23rem;
-    width: 100%;
+    width: 95%;
     padding: 0.5rem;
+    border-radius: .5rem;
     overflow: hidden;
     position: relative;
+    padding: 0.5rem;
+    grid-template-columns: (4, 100%);
 }
 
-main .products .box-container .box .image img{
+main .products .box-container .box .image div {
     height: 100%;
     width: auto;
     border-radius: .5rem;
@@ -370,4 +374,21 @@ main .products .box-container .box .content .price{
         width:100%;
     }
 
+}
+
+
+
+/* IMAGENS DE PRODUTOS */
+
+#img1 {
+    background-image: url(../image/produtos/Maquiagem/DermachemSaboneteLiquidoPosMaquiagemMakeUp1.png);
+    background-position: center;
+    background-size: 110%;
+}
+
+#img1:hover {
+    background-image: url(../image/produtos/Maquiagem/DermachemSaboneteLiquidoPosMaquiagemMakeUp2.png);
+    background-position: center;
+    background-size: 110%;
+    transition: 0.7s;
 }
