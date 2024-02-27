@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arapey&display=swap');
 
+@font-face {
+    font-family: oferta;
+    src: url(../font/Curetro.otf);
+
+}
+@font-face {
+    font-family: titulo;
+    src: url(../font/MOORA\ LIGHT\ REGULER.otf);
+}
+
 :root{
     --space-cadet-blue:#192a56;
     --light-color:#666;
@@ -31,41 +41,24 @@ body {
 
 section{
     background-color: #fff;
-    padding:2rem 9%;
+    padding: 0.3rem 9%;
 }
 
-section:nth-child(even){
-    background:#ffffff;
-}
-
-.sub-heading{
+.oferta{
     text-align: center;
-    color:var(--golden-brown);
-    font-size: 2rem;
-    padding-top: 1rem;
+    color: gold;
+    font-size: 5rem;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+    font-family: oferta;
+    padding-bottom: 3rem;
 }
 
-.heading{
+.nomeCat {
+    font-family: titulo;
     text-align: center;
-    color:var(--space-cadet-blue);
-    font-size: 3rem;
+    color: #e643a7;
+    font-size: 4rem;
     padding-bottom: 2rem;
-}
-
-.btn{
-    margin-top: 1rem;
-    display: inline-block;
-    font-size: 1.7rem;
-    color:#fff;
-    background: var(--space-cadet-blue);
-    border-radius: .5rem;
-    cursor: pointer;
-    padding:.7rem 1rem;
-}
-
-.btn:hover{
-    background: var(--golden-brown);
-    letter-spacing: 0.05rem;
 }
 
 header{
@@ -180,6 +173,14 @@ main .sidebar .categoria a{
     color:var(--light-color);
 }
 
+.fa-home {
+    font-size: 2rem;
+}
+
+.fa-arrow-left {
+    font-size: 2rem;
+}
+
 main .sidebar .categoria a.active,
 main .sidebar .categoria a:hover{
     color:#fff;
@@ -192,19 +193,43 @@ main .products .box-container{
     gap: 1rem;
 }
 
+main .products .box-container .box {
+    border: solid 1px #eee;
+    border-radius: .5rem;
+}
+
 main .products .box-container .box .image{
     height: 23rem;
     width: 100%;
     padding: 0.5rem;
     overflow: hidden;
     position: relative;
+    padding: 0.5rem;
 }
 
-main .products .box-container .box .image img{
+main .products .box-container .box .image div {
     height: 100%;
     width: auto;
     border-radius: .5rem;
     object-fit: cover;
+}
+
+main .products .box-container .box .image .novo{
+    position: absolute;
+    top: -4%; right: 76%;
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    text-align: center;
+}
+
+main .products .box-container .box .image .superOferta{
+    position: absolute;
+    top: -4%; right: 72%;
+    height: 6rem;
+    width: 6rem;
+    line-height: 5rem;
+    text-align: center;
 }
 
 main products .box-container .box .content{
@@ -301,8 +326,8 @@ main .products .box-container .box .content .price{
 
     .products .box-container{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(18rem, 0.5fr));
-        gap: 0.6rem;
+        grid-template-columns: repeat(auto-fit, minmax(17rem, 0.5fr));
+        gap: 0.5rem;
     }
 
     header .icons i,
@@ -327,7 +352,7 @@ main .products .box-container .box .content .price{
     }
 
     .heading{
-        font-size: 2.5rem;
+        font-size: 4rem;
     }
     
 }
@@ -348,4 +373,298 @@ main .products .box-container .box .content .price{
         width:100%;
     }
 
+}
+
+/* IMAGENS DE PRODUTOS */
+
+/* MAQUIAGEM */
+
+#maq1 {
+    background-image: url(../image/produtos/Maquiagem/DermachemSaboneteLiquidoPosMaquiagemMakeUp1.png);
+    background-position: center;
+    background-size: 110%;
+}
+
+#maq1:hover {
+    background-image: url(../image/produtos/Maquiagem/DermachemSaboneteLiquidoPosMaquiagemMakeUp2.png);
+    background-position: center;
+    background-size: 110%;
+    transition: 0.7s;
+}
+
+#maq2 {
+    background-image: url(../image/produtos/Maquiagem/DermachemSaboneteLiquidoPreMaquiagemMakeUp1.png);
+    background-position: center;
+    background-size: 110%;
+}
+
+#maq2:hover {
+    background-image: url(../image/produtos/Maquiagem/DermachemSaboneteLiquidoPreMaquiagemMakeUp2.png);
+    background-position: center;
+    background-size: 110%;
+    transition: 0.7s;
+}
+
+#maq3 {
+    background-image: url(../image/produtos/Maquiagem/AdversaMáscaraDeCíliosVegana2.png);
+    background-position: center;
+    background-size: 110%;
+}
+
+#maq3:hover {
+    background-image: url(../image/produtos/Maquiagem/AdversaMáscaraDeCíliosVegana1.png);
+    background-position: center;
+    background-size: 110%;
+    transition: 0.7s;
+}
+
+#maq4 {
+    background-image: url(../image/produtos/Maquiagem/FenzzaFixadordeMaquiagem1.png);
+    background-position: center;
+    background-size: 110%;
+}
+
+#maq4:hover {
+    background-image: url(../image/produtos/Maquiagem/FenzzaFixadordeMaquiagem2.png);
+    background-position: center;
+    background-size: 110%;
+    transition: 0.7s;
+}
+
+#maq5 {
+    background-image: url(../image/produtos/Maquiagem/LyricsDelineadorLiquido2.png);
+    background-position: center;
+    background-size: 110%;
+}
+
+#maq5:hover {
+    background-image: url(../image/produtos/Maquiagem/LyricsDelineadorLiquido1.png);
+    background-position: center;
+    background-size: 110%;
+    transition: 0.7s;
+}
+
+#maq6 {
+    background-image: url(../image/produtos/Maquiagem/LyricsPaletaDeSombras1.png);
+    background-position: center;
+    background-size: 110%;
+}
+
+#maq6:hover {
+    background-image: url(../image/produtos/Maquiagem/LyricsPaletaDeSombras2.png);
+    background-position: center;
+    background-size: 110%;
+    transition: 0.7s;
+}
+
+#maq7 {
+    background-image: url(../image/produtos/Maquiagem/PhallebeautyTrioDeContorno1.png);
+    background-position: center;
+    background-size: 110%;
+}
+
+#maq7:hover {
+    background-image: url(../image/produtos/Maquiagem/PhallebeautyTrioDeContorno2.png);
+    background-position: center;
+    background-size: 110%;
+    transition: 0.7s;
+}
+
+/* CUIDADO COM A PELE */
+
+#pele1 {
+    background-image: url(../image/produtos/CuidadosComAPele/FaceBeautifulMoussedelimpezaVitaminaC1.png);
+    background-position: center;
+    background-size: 110%;
+}
+
+#pele1:hover {
+    background-image: url(../image/produtos/CuidadosComAPele/FaceBeautifulMoussedelimpezaVitaminaC2.png);
+    background-position: center;
+    background-size: 110%;
+    transition: 0.7s;
+}
+
+#pele2 {
+    background-image: url(../image/produtos/CuidadosComAPele/FaceBeautifulMoussedelimpezaRosaMosqueta1.png);
+    background-position: center;
+    background-size: 110%;
+}
+
+#pele2:hover {
+    background-image: url(../image/produtos/CuidadosComAPele/FaceBeautifulMoussedelimpezaRosaMosqueta2.png);
+    background-position: center;
+    background-size: 110%;
+    transition: 0.7s;
+}
+
+#pele3 {
+    background-image: url(../image/produtos/CuidadosComAPele/DermachemGelFacialEsfolianteVitaminaC1.png);
+    background-position: center;
+    background-size: 110%;
+}
+
+#pele3:hover {
+    background-image: url(../image/produtos/CuidadosComAPele/DermachemGelFacialEsfolianteVitaminaC2.png);
+    background-position: center;
+    background-size: 110%;
+    transition: 0.7s;
+}
+
+#pele4 {
+    background-image: url(../image/produtos/CuidadosComAPele/FenzzaLençoumedecidogelatoUvinha1.png);
+    background-position: center;
+    background-size: 110%;
+}
+
+#pele4:hover {
+    background-image: url(../image/produtos/CuidadosComAPele/FenzzaLençoumedecidogelatoUvinha2.png);
+    background-position: center;
+    background-size: 110%;
+    transition: 0.7s;
+}
+
+#pele5 {
+    background-image: url(../image/produtos/CuidadosComAPele/FenzzaLençoumedecidogelatoMoranguete1.png);
+    background-position: center;
+    background-size: 110%;
+}
+
+#pele5:hover {
+    background-image: url(../image/produtos/CuidadosComAPele/FenzzaLençoumedecidogelatoMoranguete2.png);
+    background-position: center;
+    background-size: 110%;
+    transition: 0.7s;
+}
+
+/* CUIDADO COM OS LABIOS */
+
+#lab1 {
+    background-image: url(../image/produtos/CuidadoComOsLabios/IsisHidratanteLabialCandyLipsBanana1.png);
+    background-position: center;
+    background-size: 110%;
+}
+
+#lab1:hover {
+    background-image: url(../image/produtos/CuidadoComOsLabios/IsisHidratanteLabialCandyLips2.png);
+    background-position: center;
+    background-size: 110%;
+    transition: 0.7s;
+}#lab2 {
+    background-image: url(../image/produtos/CuidadoComOsLabios/IsisHidratanteLabialCandyLipsMyCrush1.png);
+    background-position: center;
+    background-size: 110%;
+}
+
+#lab2:hover {
+    background-image: url(../image/produtos/CuidadoComOsLabios/IsisHidratanteLabialCandyLips2.png);
+    background-position: center;
+    background-size: 110%;
+    transition: 0.7s;
+}
+
+#lab3 {
+    background-image: url(../image/produtos/Maquiagem/FenzzaLipOilMultifucionalParqueEncantado1.png);
+    background-position: center;
+    background-size: 110%;
+}
+
+#lab3:hover {
+    background-image: url(../image/produtos/Maquiagem/FenzzaLipOilMultifucionalParqueEncantado2.png);
+    background-position: center;
+    background-size: 110%;
+    transition: 0.7s;
+}
+
+#lab4 {
+    background-image: url(../image/produtos/Maquiagem/Pink21LipglossFancyDolly021.png);
+    background-position: center;
+    background-size: 110%;
+}
+
+#lab4:hover {
+    background-image: url(../image/produtos/Maquiagem/Pink21LipglossFancyDolly022.png);
+    background-position: center;
+    background-size: 110%;
+    transition: 0.7s;
+}
+
+#lab5 {
+    background-image: url(../image/produtos/CuidadoComOsLabios/RubyRoseManteigadeCacauCoco1.png);
+    background-position: center;
+    background-size: 110%;
+}
+
+#lab5:hover {
+    background-image: url(../image/produtos/CuidadoComOsLabios/RubyRoseManteigadeCacauCoco2.png);
+    background-position: center;
+    background-size: 110%;
+    transition: 0.7s;
+}
+
+/* ACESSORIOS */
+
+#ace1 {
+    background-image: url(../image/produtos/Acessorio/HelloMiniCíliosPostiços3D3Pares1.png);
+    background-position: center;
+    background-size: 110%;
+}
+
+#ace1:hover {
+    background-image: url(../image/produtos/Acessorio/HelloMiniCíliosPostiços3D3Pares2.png);
+    background-position: center;
+    background-size: 110%;
+    transition: 0.7s;
+}
+
+#ace2 {
+    background-image: url(../image/produtos/Acessorio/MacrilanPincel01Profissional1.png);
+    background-position: center;
+    background-size: 110%;
+}
+
+#ace2:hover {
+    background-image: url(../image/produtos/Acessorio/MacrilanPincel01Profissional2.png);
+    background-position: center;
+    background-size: 110%;
+    transition: 0.7s;
+}
+
+#ace3 {
+    background-image: url(../image/produtos/Acessorio/MacrilanPincel02Profissional1.png);
+    background-position: center;
+    background-size: 110%;
+}
+
+#ace3:hover {
+    background-image: url(../image/produtos/Acessorio/MacrilanPincel02Profissional2.png);
+    background-position: center;
+    background-size: 110%;
+    transition: 0.7s;
+}
+
+#ace4 {
+    background-image: url(../image/produtos/Acessorio/MacrilanPincel04Profissional1.png);
+    background-position: center;
+    background-size: 110%;
+}
+
+#ace4:hover {
+    background-image: url(../image/produtos/Acessorio/MacrilanPincel04Profissional2.png);
+    background-position: center;
+    background-size: 110%;
+    transition: 0.7s;
+}
+
+#ace5 {
+    background-image: url(../image/produtos/Acessorio/MacrilanPincel10Profissional1.png);
+    background-position: center;
+    background-size: 110%;
+}
+
+#ace5:hover {
+    background-image: url(../image/produtos/Acessorio/MacrilanPincel10Profissional2.png);
+    background-position: center;
+    background-size: 110%;
+    transition: 0.7s;
 }

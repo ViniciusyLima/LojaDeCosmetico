@@ -15,8 +15,8 @@ function loadSafariStylesheet() {
 // Carrega o arquivo CSS específico para o Safari e desativa o arquivo style.css se necessário
 if (isSafari()) {
     loadSafariStylesheet();
-    alert("ATENÇÃO CORNO(A)" + '\n\n' + "Se você é modinha de iPhone e é corno(a), clique em fechar!");
+    //lert("ATENÇÃO CORNO(A)" + '\n\n' + "Se você é modinha de iPhone e é corno(a), clique em fechar!");
 } else {
-    alert("Este cliente não está usando o Safari");
+    //alert("Este cliente não está usando o Safari");
 }
 
