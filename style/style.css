@@ -61,22 +61,6 @@ section{
     padding-bottom: 2rem;
 }
 
-.btn{
-    margin-top: 1rem;
-    display: inline-block;
-    font-size: 1.7rem;
-    color:#fff;
-    background: var(--space-cadet-blue);
-    border-radius: .5rem;
-    cursor: pointer;
-    padding:.7rem 1rem;
-}
-
-.btn:hover{
-    background: var(--golden-brown);
-    letter-spacing: 0.05rem;
-}
-
 header {
     position: fixed;
     top:0; left: 0; right:0;
