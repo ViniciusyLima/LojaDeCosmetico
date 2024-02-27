@@ -1,7 +1,3 @@
-function showAlert(titulo, mensagem) {
-    alert(titulo + "\n\n" + mensagem);
-}
-
 // Verifica se o navegador é Safari
 function isSafari() {
     return /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
@@ -21,6 +17,6 @@ if (isSafari()) {
     loadSafariStylesheet();
     alert("ATENÇÃO CORNO(A)" + '\n\n' + "Se você é modinha de iPhone e é corno(a), clique em fechar!");
 } else {
-    showAlert("Este cliente não está usando o Safari.");
+    alert("Este cliente não está usando o Safari");
 }
 
