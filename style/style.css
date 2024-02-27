@@ -202,11 +202,10 @@ main .products .box-container .box {
 
 main .products .box-container .box .image{
     display: grid;
-    grid-template-columns: repeat(4, 110%);
+    grid-template-columns: repeat(4, 100%);
     height: 23rem;
-    width: 95%;
+    width: 100%;
     padding: 0.5rem;
-    border-radius: .5rem;
     overflow: hidden;
     position: relative;
     padding: 0.5rem;
@@ -389,6 +388,6 @@ main .products .box-container .box .content .price{
 #img1:hover {
     background-image: url(../image/produtos/Maquiagem/DermachemSaboneteLiquidoPosMaquiagemMakeUp2.png);
     background-position: center;
-    background-size: 110%;
+    background-size: 105%;
     transition: 0.7s;
 }
