@@ -347,23 +347,19 @@ main .products .box-container .box .content .price{
 
     header .icons i,
     header .icons a {
-    margin-left: 0;
-    margin-right: 0;
-    height: 3.5rem;
-    line-height: 3.5rem;
-    width: 3.5rem;
+    height: 4rem;
+    line-height: 4rem;
+    width: 4rem;
     }
 
     header .logo{
     font-family: 'Arapey', serif;
     color: #ff18a6;
-    font-size: 3.3rem;
-    font-weight: bolder;
-
+    font-size: 3.5rem;
     }
 
     header .logo img{
-    width: 20px;
+    width: 23px;
     }
 
     .oferta{
@@ -371,7 +367,6 @@ main .products .box-container .box .content .price{
     }
 
     main .products .box-container{ /*VERMELHO*/
-        justify-content: center;
     }
 
     main .sidebar .categoria a{
