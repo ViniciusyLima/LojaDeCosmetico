@@ -188,7 +188,7 @@ main .sidebar .categoria a:hover{
 }
 
 main .products .box-container{
-    display: flex;
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
     gap: 1rem;
 }
@@ -196,6 +196,7 @@ main .products .box-container{
 main .products .box-container .box {
     border: solid 1px #eee;
     border-radius: .5rem;
+    width: 100%;
 }
 
 main .products .box-container .box .image{
