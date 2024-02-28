@@ -159,18 +159,23 @@ main {
     margin-top: 7rem;
 }
 main .sidebar .categoria {
-    margin-top: 0rem;
-    padding: 1rem;
     display: flex;
-    align-items: center;
+    flex: 1;
+    flex-wrap: wrap;
     justify-content: flex-start;
+    max-width: 110rem;
+    margin: 0 auto;
 }
 
 main .sidebar .categoria a{
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     border-radius: .5rem;
-    padding:.4rem 1.5rem;
+    padding: 5px;
+    height: 48px;
+    width: 140px;
+    margin: 1px;
     color:var(--light-color);
+    text-align: center;
 }
 
 .fa-home {
@@ -353,11 +358,11 @@ main .products .box-container .box .content .price{
     }
 
     .oferta{
-        font-size: 5rem;
+        font-size: 4.2rem;
     }
 
-    main .products .box-container .box .image{
-        height: 19rem;
+    main .products .box-container{ /*VERMELHO*/
+        justify-content: center;
     }
     
 }
