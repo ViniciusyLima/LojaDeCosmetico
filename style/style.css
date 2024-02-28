@@ -168,12 +168,12 @@ main .sidebar .categoria {
 }
 
 main .sidebar .categoria a{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     border-radius: .5rem;
-    padding: 5px;
-    height: 48px;
-    width: 140px;
-    margin: 1px;
+    padding: 10px;
+    height: 38px;
+    width: auto;
+    margin: 3px;
     color:var(--light-color);
     text-align: center;
 }
@@ -203,7 +203,7 @@ main .products .box-container{ /*VERMELHO*/
 
 main .products .box-container .box {
     flex: 1 1 170px;
-    margin: 5px;
+    margin: 2px;
     border: solid 1px #eee;
     border-radius: .5rem;
     max-width: 20.5rem;
