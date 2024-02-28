@@ -174,15 +174,6 @@ main > section .nomeCat {
     padding-bottom: 2rem;
 }
 
-main .sidebar .categoria {
-    display: flex;
-    flex: 1;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    max-width: 110rem;
-    margin: 0 auto;
-}
-
 main .sidebar .categoria a{
     position: absolute;
     left: 5px;
@@ -366,15 +357,17 @@ main .products .box-container .box .content .price{
         font-size: 4.2rem;
     }
 
-    main .products .box-container{ /*VERMELHO*/
+    main .products .box-container{
+        justify-content: center;
     }
 
     main .sidebar .categoria a{
-        top: 56px;
+        top: 60px;
     }
     
     header .icons .dropdown-menu {
-        top: 54px;
+        top: 60px;
+        right: 2px;
     }
 
     header .icons #menu {
@@ -386,7 +379,8 @@ main .products .box-container .box .content .price{
     }
 
     header .icons .dropdown-menu li {
-        width: auto;
+        width: 165px;
+        padding-top: 5px;
     }
 
 }
