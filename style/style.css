@@ -41,7 +41,7 @@ body {
 
 section{
     background-color: #fff;
-    padding: 0.3rem 9%;
+    padding: 1rem 8%;
 }
 
 .oferta{
@@ -59,22 +59,6 @@ section{
     color: #e643a7;
     font-size: 4rem;
     padding-bottom: 2rem;
-}
-
-.btn{
-    margin-top: 1rem;
-    display: inline-block;
-    font-size: 1.7rem;
-    color:#fff;
-    background: var(--space-cadet-blue);
-    border-radius: .5rem;
-    cursor: pointer;
-    padding:.7rem 1rem;
-}
-
-.btn:hover{
-    background: var(--golden-brown);
-    letter-spacing: 0.05rem;
 }
 
 header {
@@ -216,14 +200,11 @@ main .products .box-container .box {
 }
 
 main .products .box-container .box .image{
-    
-    grid-template-columns: (4, 100%);
     height: 23rem;
     width: 100%;
     padding: 0.5rem;
     overflow: hidden;
     position: relative;
-    padding: 0.5rem;
 }
 
 main .products .box-container .box .image .img {
@@ -252,7 +233,6 @@ main .products .box-container .box .image .superOferta{
 }
 
 main .products .box-container .box .content{
-    position: relative;
     padding: 0.5rem;
     padding-top: 0;
 }
@@ -340,14 +320,9 @@ main .products .box-container .box .content .price{
         background:#eee;
     }
 
-    #search-form #search-box{
-        width:90%;
-        margin:0 1rem;
-    }
-
     .products .box-container{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(17rem, 0.5fr));
+        grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
         gap: 0.5rem;
     }
 
