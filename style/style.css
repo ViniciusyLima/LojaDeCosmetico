@@ -367,7 +367,7 @@ main .products .box-container .box .content .price{
     
     header .icons .dropdown-menu {
         top: 60px;
-        right: 2px;
+        right: 4px;
     }
 
     header .icons #menu {
@@ -379,7 +379,7 @@ main .products .box-container .box .content .price{
     }
 
     header .icons .dropdown-menu li {
-        width: 165px;
+        width: 172px;
         padding-top: 5px;
     }
 
