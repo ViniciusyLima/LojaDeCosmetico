@@ -39,30 +39,8 @@ body {
     background-color: #ffffff;
   }
 
-section{
-    background-color: #fff;
-    padding: 1rem 8%;
-}
-
-.oferta{
-    text-align: center;
-    color: #ff18a6;
-    font-size: 5rem;
-    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
-    font-family: oferta;
-    padding-bottom: 3rem;
-}
-
-.nomeCat {
-    font-family: titulo;
-    text-align: center;
-    color: #e643a7;
-    font-size: 4rem;
-    padding-bottom: 2rem;
-}
-
 header {
-    position: fixed;
+    position: absolute;
     top:0; left: 0; right:0;
     background: #fff;
     padding: 1rem 7%;
@@ -73,67 +51,59 @@ header {
     box-shadow: var(--box-shadow);
 }
 
+header .logo img{
+    width: 28px;
+}
+
 header .logo{
     font-family: 'Arapey', serif;
     color: #ff18a6;
     font-size: 4rem;
     font-weight: bolder;
-
-}
-
-header .logo img{
-    width: 28px;
 }
 
 header .navbar a{
     font-size: 1.7rem;
     border-radius: .5rem;
+    align-items: center;
     padding:.5rem 1.5rem;
     color:var(--light-color);
 }
 
-header .navbar a.active,
-header .navbar a:hover{
+header .navbar a:hover,
+header .icons i:hover,
+header .icons > a:hover,
+header .icons .dropdown-menu > li > a:hover,
+header .icons .dropdown-menu > li:hover,
+header .navbar a:hover,
+main .sidebar .categoria a:hover{
     color:#fff;
     background-color: #ff83cf;
+}
+
+header .icons {
+    display: block;
 }
 
 header .icons i,
-header .icons a{
+header .icons > a{
     cursor: pointer;
     margin-left: 0.3rem;
     margin-right: 0.3rem;
-    height:4.5rem;
-    line-height: 4.5rem;
-    width:4.5rem;
+    height: 5.3rem;
+    line-height: 5.3rem;
+    width: 5.3rem;
     text-align: center;
-    font-size: 1.7rem;
     color:var(--space-cadet-blue);
     border-radius: 50%;
     background: #eee;
-}
-
-header .icons i:hover,
-header .icons a:hover{
-    color:#fff;
-    background-color: #ff83cf;
 }
 
 header .icons #menu,
 header .icons #instagram,
 header .icons #whatsapp{
     display: none;
-}
-
-header .icons #instagram,
-header .icons #whatsapp{
-    font-size: 18px;
-}
-
-header .icons #menu:hover {
-    transform: scale(1.1);
-    transition: 0.3s;
-    color: #ff83cf; 
+    font-size: 19px;
 }
 
 header .icons #instagram:hover,
@@ -142,22 +112,68 @@ header .icons #whatsapp:hover {
     transition: 0.5s;
 }
 
-header .navbar a{
-    font-size: 1.7rem;
-    border-radius: .5rem;
-    padding:.5rem 1.5rem;
-    color:var(--light-color);
+header .icons #menu:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    color: #ffffff; 
 }
 
-header .navbar a.active,
-header .navbar a:hover{
-    color:#fff;
-    background-color: #ff83cf;
+header .icons .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 54px;
+    right: 1px;
+    box-shadow: 0 0 2px black;
+}
+
+header .icons .dropdown-menu li {
+    display: block;
+    height: 40px;
+    width: auto;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-size: 1.3rem;
+    border-bottom: 0.5px solid black;
+}
+
+header .icons .dropdown-menu > li > a {
+    text-decoration: none;
+    color: var(--light-color)
+}
+
+header .icons .dropdown-menu a:hover {
+    background-color: #ff18a6;
+}
+
+main > section{
+    background-color: #fff;
+    padding: 1rem 8%;
 }
 
 main {
     margin-top: 7rem;
 }
+
+main > section .oferta{
+    text-align: center;
+    color: #ff18a6;
+    font-size: 5rem;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+    font-family: oferta;
+    padding-bottom: 3rem;
+}
+
+main > section .nomeCat {
+    font-family: titulo;
+    text-align: center;
+    color: #e643a7;
+    font-size: 4rem;
+    padding-bottom: 2rem;
+}
+
 main .sidebar .categoria {
     display: flex;
     flex: 1;
@@ -168,31 +184,28 @@ main .sidebar .categoria {
 }
 
 main .sidebar .categoria a{
+    position: absolute;
+    left: 5px;
+    top: 56px;
     font-size: 1.3rem;
     border-radius: .5rem;
     padding: 10px;
-    height: 38px;
+    height: 42px;
     width: auto;
     margin: 3px;
     color:var(--light-color);
     text-align: center;
 }
 
-.fa-home {
-    font-size: 2rem;
+main .sidebar .fa-home {
+    font-size: 2.5rem;
 }
 
-.fa-arrow-left {
-    font-size: 2rem;
+main .sidebar .fa-arrow-left {
+    font-size: 2.5rem;
 }
 
-main .sidebar .categoria a.active,
-main .sidebar .categoria a:hover{
-    color:#fff;
-    background-color: #ff83cf;
-}
-
-main .products .box-container{ /*VERMELHO*/
+main .products .box-container{ 
     display: flex;
     flex: 1;
     flex-wrap: wrap;
@@ -204,6 +217,7 @@ main .products .box-container{ /*VERMELHO*/
 main .products .box-container .box {
     flex: 1 1 170px;
     margin: 2px;
+    margin-bottom: 5px;
     border: solid 1px #eee;
     border-radius: .5rem;
     max-width: 20.5rem;
