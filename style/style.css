@@ -207,7 +207,7 @@ main .products .box-container{
 }
 
 main .products .box-container .box {
-    flex: 1 1 160px;
+    flex: 1 1 155px;
     margin: 2px;
     margin-bottom: 5px;
     border: solid 1px #eee;
