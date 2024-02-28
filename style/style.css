@@ -167,6 +167,7 @@ main > section .oferta{
 }
 
 main > section .nomeCat {
+    margin-top: 20px;
     font-family: titulo;
     text-align: center;
     color: #e643a7;
@@ -201,17 +202,18 @@ main .products .box-container{
     flex: 1;
     flex-wrap: wrap;
     justify-content: flex-start;
-    max-width: 110rem;
+    max-width: 140rem;
     margin: 0 auto;
 }
 
 main .products .box-container .box {
-    flex: 1 1 150px;
+    flex: 1 1 160px;
     margin: 2px;
     margin-bottom: 5px;
     border: solid 1px #eee;
     border-radius: .5rem;
-    max-width: 20.50rem;
+    min-width: 19rem;
+    max-width: 21rem;
     max-height: 38rem;
 }
 
