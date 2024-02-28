@@ -123,26 +123,24 @@ header .icons #menu:hover {
 header .icons .dropdown-menu {
     display: none;
     position: absolute;
-    top: 78px;
-    right: 1px;
+    top: 80px;
+    right: 5px;
     box-shadow: 0 0 2px black;
 }
 
-header .icons .dropdown-menu li {
-    display: block;
+header .icons .dropdown-menu > li {
     height: 40px;
     width: 250px;
     padding-top: 10px;
-    text-decoration: none;
     color: black;
     background-color: white;
+    list-style-type: none;
     text-align: center;
-    font-size: 1.3rem;
     border-bottom: 0.5px solid black;
 }
 
 header .icons .dropdown-menu > li > a {
-    text-decoration: none;
+    font-size: 1.3rem;
     color: var(--light-color)
 }
 
@@ -188,7 +186,7 @@ main .sidebar .categoria {
 main .sidebar .categoria a{
     position: absolute;
     left: 5px;
-    top: 78px;
+    top: 83px;
     font-size: 1.3rem;
     border-radius: .5rem;
     padding: 10px;
@@ -222,7 +220,7 @@ main .products .box-container .box {
     margin-bottom: 5px;
     border: solid 1px #eee;
     border-radius: .5rem;
-    max-width: 20rem;
+    max-width: 20.50rem;
     max-height: 38rem;
 }
 
@@ -318,15 +316,16 @@ main .products .box-container .box .content .price{
 
 @media (max-width:768px){
 
-    header .icons #menu,
     header .icons #instagram,
     header .icons #whatsapp{
-        display: inline-block;
+        display: inline-block; 
     }
 
     header .navbar{
         position: absolute;
-        top:100%; left:0; right:0;
+        top: 100%; 
+        left:0; 
+        right:0;
         background:#fff;
         border-top: .1rem solid rgba(0,0,0,.2);
         border-bottom: .1rem solid rgba(0,0,0,.2);
@@ -340,16 +339,10 @@ main .products .box-container .box .content .price{
 
     header .navbar a{
         display: block;
-        padding:1.5rem;
-        margin:1rem;
+        padding: 1.5rem;
+        margin: 1rem;
         font-size: 2rem;
         background:#eee;
-    }
-
-    .products .box-container{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
-        gap: 0.5rem;
     }
 
     header .icons i,
