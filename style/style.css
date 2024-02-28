@@ -378,7 +378,7 @@ main .products .box-container .box .content .price{
         font-size: 18px;
     }
 
-    header .icons .dropdown-menu li {
+    header .icons .dropdown-menu > li {
         width: 172px;
         padding-top: 5px;
     }
