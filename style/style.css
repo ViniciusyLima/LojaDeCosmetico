@@ -123,7 +123,7 @@ header .icons #menu:hover {
 header .icons .dropdown-menu {
     display: none;
     position: absolute;
-    top: 72px;
+    top: 78px;
     right: 1px;
     box-shadow: 0 0 2px black;
 }
@@ -131,8 +131,8 @@ header .icons .dropdown-menu {
 header .icons .dropdown-menu li {
     display: block;
     height: 40px;
-    width: auto;
-    padding: 5px;
+    width: 250px;
+    padding-top: 10px;
     text-decoration: none;
     color: black;
     background-color: white;
@@ -395,6 +395,10 @@ main .products .box-container .box .content .price{
     
     header .icons #menu:hover {
         font-size: 18px;
+    }
+
+    header .icons .dropdown-menu li {
+        width: auto;
     }
 
 }
