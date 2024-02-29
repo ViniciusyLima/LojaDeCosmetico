@@ -233,9 +233,9 @@ main .products .box-container .box .image .img {
 
 main .products .box-container .box .image .novo{
     position: absolute;
-    top: -10%; right: 70%;
-    height: 6rem;
-    width: 6rem;
+    top: -2%; right: 65%;
+    height: 2.5rem;
+    width: 7rem;
     line-height: 5rem;
     text-align: center;
 }
