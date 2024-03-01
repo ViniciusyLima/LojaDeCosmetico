@@ -307,14 +307,18 @@ main .products .box-container .box .content .price{
 
 }
 
-@media (max-width:768px){
+@media (max-width: 435px){
 
-    header .icons #instagram,
-    header .icons #whatsapp{
-        display: inline-block; 
+    header .logo {
+        font-family: 'Arapey', serif;
+        color: #ff18a6;
+        font-size: 3.5rem;
     }
-
-    header .navbar{
+    
+    header .logo img {
+        width: 23px;
+    }
+    header .navbar {
         position: absolute;
         top: 100%; 
         left:0; 
@@ -326,11 +330,11 @@ main .products .box-container .box .content .price{
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
 
-    header .navbar.active{
+    header .navbar.active {
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
 
-    header .navbar a{
+    header .navbar a {
         display: block;
         padding: 1.5rem;
         margin: 1rem;
@@ -338,38 +342,9 @@ main .products .box-container .box .content .price{
         background:#eee;
     }
 
-    header .icons i,
-    header .icons a {
-    height: 4rem;
-    line-height: 4rem;
-    width: 4rem;
-    }
-
-    header .logo{
-    font-family: 'Arapey', serif;
-    color: #ff18a6;
-    font-size: 3.5rem;
-    }
-
-    header .logo img{
-    width: 23px;
-    }
-
-    .oferta{
-        font-size: 4.2rem;
-    }
-
-    main .products .box-container{
-        justify-content: center;
-    }
-
-    main .sidebar .categoria a{
-        top: 60px;
-    }
-    
-    header .icons .dropdown-menu {
-        top: 55px;
-        right: 6px;
+    header .icons #instagram,
+    header .icons #whatsapp {
+        display: inline-block; 
     }
 
     header .icons #menu {
@@ -380,27 +355,207 @@ main .products .box-container .box .content .price{
         font-size: 18px;
     }
 
+    header .icons .dropdown-menu {
+        top: 55px;
+        right: 6px;
+    }
+
     header .icons .dropdown-menu > li {
         width: 165px;
         padding-top: 5px;
     }
 
+    header .icons i,
+    header .icons a {
+        height: 4rem;
+        line-height: 4rem;
+        width: 4rem;
+    }
+
+    main .sidebar .categoria a{
+        top: 60px;
+    }
+
+    main > section .oferta{
+        font-size: 3.5rem;
+    }
+
+    main .products .box-container{
+        justify-content: center;
+    }
+
+    main .products .box-container .box {
+        min-width: 19rem;
+        max-width: 20rem;
+    }
 }
 
-@media (max-width:450px){
+@media (max-width: 393px){
 
-    html{
-        font-size: 50%;
+    header .logo {
+        font-family: 'Arapey', serif;
+        color: #ff18a6;
+        font-size: 3.5rem;
+    }
+    
+    header .logo img {
+        width: 23px;
+    }
+    header .navbar {
+        position: absolute;
+        top: 100%; 
+        left:0; 
+        right:0;
+        background:#fff;
+        border-top: .1rem solid rgba(0,0,0,.2);
+        border-bottom: .1rem solid rgba(0,0,0,.2);
+        padding:1rem;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
 
-    .dishes .box-container .box img{
-        height: 100%;
-        width: 100%;
-
+    header .navbar.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
 
-    .order form .inputBox .input{
-        width:100%;
+    header .navbar a {
+        display: block;
+        padding: 1.5rem;
+        margin: 1rem;
+        font-size: 2rem;
+        background:#eee;
     }
 
+    header .icons #instagram,
+    header .icons #whatsapp {
+        display: inline-block; 
+    }
+
+    header .icons #menu {
+        font-size: 17px;
+    }
+    
+    header .icons #menu:hover {
+        font-size: 18px;
+    }
+
+    header .icons .dropdown-menu {
+        top: 55px;
+        right: 6px;
+    }
+
+    header .icons .dropdown-menu > li {
+        width: 165px;
+        padding-top: 5px;
+    }
+
+    header .icons i,
+    header .icons a {
+        height: 4rem;
+        line-height: 4rem;
+        width: 4rem;
+    }
+
+    main .sidebar .categoria a{
+        top: 60px;
+    }
+
+    main > section .oferta{
+        font-size: 3.5rem;
+    }
+
+    main .products .box-container{
+        justify-content: center;
+    }
+
+    main .products .box-container .box {
+        min-width: 15rem;
+        max-width: 16rem;
+    }
+}
+
+@media (max-width: 359px){
+
+    header .logo {
+        font-family: 'Arapey', serif;
+        color: #ff18a6;
+        font-size: 3.5rem;
+    }
+    
+    header .logo img {
+        width: 23px;
+    }
+    header .navbar {
+        position: absolute;
+        top: 100%; 
+        left:0; 
+        right:0;
+        background:#fff;
+        border-top: .1rem solid rgba(0,0,0,.2);
+        border-bottom: .1rem solid rgba(0,0,0,.2);
+        padding:1rem;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    header .navbar.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    header .navbar a {
+        display: block;
+        padding: 1.5rem;
+        margin: 1rem;
+        font-size: 2rem;
+        background:#eee;
+    }
+
+    header .icons #instagram,
+    header .icons #whatsapp {
+        display: inline-block; 
+    }
+
+    header .icons #menu {
+        font-size: 17px;
+    }
+    
+    header .icons #menu:hover {
+        font-size: 18px;
+    }
+
+    header .icons .dropdown-menu {
+        top: 55px;
+        right: 6px;
+    }
+
+    header .icons .dropdown-menu > li {
+        width: 165px;
+        padding-top: 5px;
+    }
+
+    header .icons i,
+    header .icons a {
+    height: 4rem;
+    line-height: 4rem;
+    width: 4rem;
+    }
+
+    main .sidebar .categoria a{
+        top: 60px;
+    }
+
+    main > section .oferta{
+        font-size: 3rem;
+    }
+
+    main > section .nomeCat {
+        font-size: 3rem;
+    }
+
+    main .products .box-container{
+        justify-content: center;
+    }
+
+    main .products .box-container .box {
+        min-width: 13rem;
+        max-width: 14rem;
+    }
 }
