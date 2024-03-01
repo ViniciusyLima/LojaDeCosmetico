@@ -148,13 +148,13 @@ header .icons .dropdown-menu a:hover {
     background-color: #ff18a6;
 }
 
+main {
+    margin-top: 7rem;
+}
+
 main > section{
     background-color: #fff;
     padding: 1rem 8%;
-}
-
-main {
-    margin-top: 7rem;
 }
 
 main > section .oferta{
