@@ -307,7 +307,7 @@ main .products .box-container .box .content .price{
 
 }
 
-@media (max-width: 435px){
+@media (max-width: 700px){
 
     header .logo {
         font-family: 'Arapey', serif;
@@ -385,8 +385,8 @@ main .products .box-container .box .content .price{
     }
 
     main .products .box-container .box {
-        min-width: 19rem;
-        max-width: 20rem;
+        min-width: 18rem;
+        max-width: 19rem;
     }
 }
 
