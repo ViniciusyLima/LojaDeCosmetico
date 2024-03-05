@@ -73,8 +73,7 @@ header .navbar a{
 header .navbar a:hover,
 header .icons i:hover,
 header .icons > a:hover,
-header .icons .dropdown-menu > li > a:hover,
-header .icons .dropdown-menu > li:hover,
+header .icons .dropdown-menu > a > li:hover,
 header .navbar a:hover,
 main .sidebar .categoria a:hover{
     color:#fff;
@@ -128,7 +127,7 @@ header .icons .dropdown-menu {
     box-shadow: 0 0 2px black;
 }
 
-header .icons .dropdown-menu > li {
+header .icons .dropdown-menu > a > li {
     height: 40px;
     width: 250px;
     padding-top: 10px;
@@ -139,7 +138,7 @@ header .icons .dropdown-menu > li {
     border-bottom: 0.5px solid black;
 }
 
-header .icons .dropdown-menu > li > a {
+header .icons .dropdown-menu > a {
     font-size: 1.3rem;
     color: var(--light-color)
 }
@@ -360,8 +359,8 @@ main .products .box-container .box .content .price{
         right: 6px;
     }
 
-    header .icons .dropdown-menu > li {
-        width: 165px;
+    header .icons .dropdown-menu > a > li {
+        width: 170px;
         padding-top: 5px;
     }
 
@@ -443,8 +442,8 @@ main .products .box-container .box .content .price{
         right: 6px;
     }
 
-    header .icons .dropdown-menu > li {
-        width: 165px;
+    header .icons .dropdown-menu > a > li {
+        width: 170px;
         padding-top: 5px;
     }
 
@@ -526,8 +525,8 @@ main .products .box-container .box .content .price{
         right: 6px;
     }
 
-    header .icons .dropdown-menu > li {
-        width: 165px;
+    header .icons .dropdown-menu > a > li {
+        width: 170px;
         padding-top: 5px;
     }
 
