@@ -230,6 +230,10 @@ main .products .box-container .box .image .img {
     max-width: 100%;
 }
 
+main .products .box-container .box .image .semCor {
+    filter: grayscale(100%);
+}
+
 main .products .box-container .box .image .novo{
     position: absolute;
     top: -2%; right: 65%;
@@ -244,6 +248,15 @@ main .products .box-container .box .superOferta{
     top: -10%; right: 70%;
     height: 6rem;
     width: 6rem;
+    line-height: 5rem;
+    text-align: center;
+}
+
+main .products .box-container .box .esgotado{
+    position: absolute;
+    top: 40%; right: 30%;
+    height: 3rem;
+    width: 7rem;
     line-height: 5rem;
     text-align: center;
 }
